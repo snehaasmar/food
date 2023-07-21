@@ -1,0 +1,126 @@
+ body{
+    width: 100%;
+   height: 550px;
+   margin-top: 0;
+   padding: 0;
+   background-image: url('https://images.squarespace-cdn.com/content/v1/58cd6ca23e00be5662baa1bd/1564278449753-SCWD5TQ9LROZBS4OY4OS/brooke-lark-HlNcigvUi4Q-unsplash.jpg?format=1000w');
+ 
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+   
+    position: absolute;
+    width:600px;
+	height:55px;
+	top:50px;
+	right:0px;
+
+	
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+	font-size: 17px;
+	color: #071931;
+    text-decoration:none;
+	margin-top:8px;
+	padding:10px;
+}
+a:hover{
+	color: rgb(238, 19, 19);
+
+}
+.main{
+    
+    padding: 0;
+ width: 500px;
+ height: 540px;
+   
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h1{
+    text-align: center;
+    /* margin-bottom: 200px; */
+    font-style:italic;
+	text-align:center;
+    text-shadow: 2px 3px 3px #3E1E23;
+	
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+@media (min-width: 1024px) {
+    .col1 {
+      width: 360px;
+      height: 400px;
+      /* Laptop-specific styles here */
+    }
+  }
+  
+  /* Media query for phones and smaller screens */
+  @media (max-width: 480px) {
+    .col1 {
+      width: 100%;
+      height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
